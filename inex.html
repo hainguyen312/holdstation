@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Check Wallet</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav">
+            <a href="https://holdstation.com/" style="text-decoration: none; color: #000;">HOLDSTATION </a>
+        </div>
+      </div>
+      <div class="app-container">
+          <main class="home">
+            <div class="search-bar">
+              <h2>Check Wallet</h2>
+              <form autocomplete="off">
+                <input id="Input" type="text" placeholder="Search an Address" />
+                <button id="searchButton">Search</button>
+                <button id="addToWatchlistButton">Add to watchlist</button>
+              </form>
+            </div>
+            <table id="result"></table>
+            <div id="watchlist">
+              <h2 class="title">My Wallets</h2>
+              <ul id="watchlistItems"></ul>
+            </div>
+          </main>
+      </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
